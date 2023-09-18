@@ -1,0 +1,58 @@
+body{
+    background-image: url(cosmeticos.jpg);
+}
+table{ 
+    width: 100;
+    border-collapse: collapse;
+    border: 2px solid #f00606;
+    width: 50%;
+    margin-top: 20%;
+    margin-left: 25%;
+    box-shadow: 0 3px #f30a7fe4;
+
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f3caea;
+    border: 1.5px solid #040404;
+
+}
+
+tbody tr:nth-child(even) {
+    background-color: #d6b3cd; 
+    border:1.5px solid #040404;
+
+}
+
+thead th {
+    background-color: #c65ba0;
+    color: #101010;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+}
+
+tbody tr:hover {
+    background-color: #fe89b6;
+    transition: background-color 0.3s ease;
+}
+
+tbody tr.active { 
+    background-color: #f391ee;
+    transition: background-color 0.3s ease;
+
+}
+
+h1 { 
+    text-align: center;
+    margin-top: 40px;
+    color: #93404d;
+    text-shadow: rgba(16, 16, 17, 0.776) -2px 4px;
+    font-size: 300%;
+    font-display: auto;
+    font-family :cursive
+
+}
